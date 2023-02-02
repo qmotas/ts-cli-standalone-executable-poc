@@ -1,6 +1,6 @@
 # ts-cli-standalone-executable-poc
 
-TypeScript で書いたコードを[ncc](https://github.com/vercel/ncc)でバンドルして[pkg](https://github.com/vercel/pkg)でバイナリを作るサンプル
+TypeScript で書いたコードを[tsup](https://github.com/egoist/tsup)でバンドルして[pkg](https://github.com/vercel/pkg)でバイナリを作るサンプル
 
 ## Prerequisite
 
