@@ -1,0 +1,28 @@
+{
+  "name": "ts-cli-standalone-executable-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "format": "prettier --write src",
+    "lint": "eslint src",
+    "bundle": "tsup",
+    "exe": "pkg dist/index.js -t node16-win-x64 -o bin/yay.exe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "@vercel/ncc": "^0.36.1",
+    "eslint": "^8.33.0",
+    "pkg": "^5.8.0",
+    "prettier": "^2.8.3",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "commander": "^10.0.0"
+  }
+}
